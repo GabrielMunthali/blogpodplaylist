@@ -21,7 +21,7 @@
 
     <nav class="navbar sticky-top navbar-expand-lg bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">News.com</a>
+            <a class="navbar-brand" href="#">10 May.</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
             <span class="la la-bars"></span>
             </button>
@@ -29,7 +29,7 @@
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active-underline" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Link</a>
@@ -65,12 +65,26 @@
             
         </div>
     </nav>
-    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas canvas-custom offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
         <div class="offcanvas-header">
             <button type="button" class="btn-close btn-close-black" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe soluta hic eos earum quos atque dolorum quaerat? Repellendus vitae atque eos, placeat at eveniet, fuga perspiciatis dignissimos natus assumenda voluptatem?
+            <ul class="myCanvas_list mb-5">
+                <li><a href="">Home</a></li>
+                <li><a href="">Link</a></li>
+                <li><a href="">Link</a></li>
+                <li><a href="">Link</a></li>
+                <li><a href="">Link</a></li>
+            </ul>
+            <ul class="myCanvas_socials">
+                <li><a href=""><span class="la la-facebook"></span></a></li>
+                <li><a href=""><span class="la la-twitter"></span></a></li>
+                <li><a href=""><span class="la la-instagram"></span></a></li>
+                <li><a href=""><span class="la la-whatsapp"></span></a></li>
+                <li><a href=""><span class="la la-youtube"></span></a></li>
+                <li><a href=""><span class="la la-spotify"></span></a></li>
+            </ul>
         </div>
     </div>
     <div class="container-fluid">
@@ -132,9 +146,9 @@
                             <h4 class="block-title">Podcasts <span class="la la-microphone-alt"></span></h4>
                             <div class="title-border"></div>
                             <div class="row">
-                                <div class="col-md-4">
-                                    <iframe class="pod_vid" src="" frameborder="0"></iframe>
-                                    <div class="vid_meta">
+                                <div class="col-md-6">
+                                    <iframe class="pod_vid" src="https://www.youtube.com/embed/Jw30n9ghjC4" title="YouTube video player" frameborder="0"></iframe>
+                                    <div class="pod_post">
                                         <a class="category-badge" href="category.html">Category</a>
                                         <h4><a href="post.html">Main title for the post</a></h4>
                                         <p>
@@ -149,7 +163,23 @@
                                         </ul>
                                     </div>
                                 </div>
-                                
+                                <div class="col-md-6">
+                                    <iframe class="pod_vid" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="YouTube video player" frameborder="0"></iframe>
+                                    <div class="pod_post">
+                                        <a class="category-badge" href="category.html">Category</a>
+                                        <h4><a href="post.html">Main title for the post</a></h4>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est esse,
+                                            omnis harum alias sit rem autem! Commo
+                                        </p>
+                                        <ul class="blockPost_meta">
+                                            <li><a href=""><span class="la la-user"></span>Author</a></li>
+                                            <li><a href=""><span class="la la-clock-o"></span>20 Minutes ago</a>
+                                            </li>
+                                            <li><a href=""><span class="la la-comments"></span> 100</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -303,8 +333,8 @@
     <footer class="footer-section" data-oas="fade-up">
         <div class="container">
             <div class="row">
-                <div class="col-6 company-block">
-                    <h4 class="company-details">Malawi Lyrics</h4>
+                <div class="col-3 company-block">
+                    <h4 class="company-details">10May.</h4>
                     <p class="company-slogan">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi quo laboriosam odit pariatur.
                         Amet tenetur blanditiis excepturi necessitatibus magnam dolore error dicta,
@@ -316,7 +346,7 @@
                         <li><a href=""><span class="la la-telegram"></span></a></li>
                     </ul>
                 </div>
-                <div class="col-6 footer-links">
+                <div class="col-9 footer-links">
                     <ul class="footer-list">
                         <li><a href=""><span class="la la-angle-double-right"></span> Home</a></li>
                         <li><a href=""><span class="la la-angle-double-right"></span> Artists</a></li>

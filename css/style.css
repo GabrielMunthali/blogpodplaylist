@@ -3,7 +3,7 @@
 body {
     margin: 0 !important;
     padding: 0 !important;
-    background-color: #ebf1f8;
+    background-color: #EBF1F8;
     font-family: 'Kanit', sans-serif;
     font-size: 14px;
 }
@@ -88,16 +88,27 @@ body {
 .nav-item .nav-link.active-underline {
     border-bottom: 3px solid #DAAC69;
 }
+.customnav_drop{
+    background-color: #3D3D3D;
+    color: #FFFFFF;
+}
+.dropdown-item{
+    color: #FFFFFF;
+}
+.dropdown-divider{
+    color: #DAAC69;
+    
+}
 .nav-search {
     position: relative;
     z-index: ;
     height: 50px;
     width: 250px;
-    background-color: #ebf1f8;
+    background-color: #EBF1F8;
     font-size: 14px;
-    border: 0px solid #ebf1f8;
+    border: 0px solid #EBF1F8;
     padding: 10px 30px;
-    color: #ebf1f8;
+    color: #EBF1F8;
     border-radius: 20px;
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
@@ -105,7 +116,7 @@ body {
 }
 
 .form-control:focus {
-    background-color: #ebf1f8;
+    background-color: #EBF1F8;
     box-shadow: none;
 }
 
@@ -420,7 +431,7 @@ ul.tags{
     margin-bottom: 10px;
     color: #000000;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
-    background-color: #ebf1f8;
+    background-color: #EBF1F8;
     border-radius: 10px;
     -webkit-transition: 0.2s all;
     transition: 0.2s all;
@@ -434,7 +445,7 @@ ul.archive-list {
 .archive-list li {
     font-size: 14px;
     display: block;
-    background-color: #ebf1f8;
+    background-color: #EBF1F8;
     height: 50px;
     line-height: 30px;
     padding: 10px;
@@ -460,12 +471,12 @@ ul.archive-list {
     z-index: 2;
     height: 50px;
     width: 100%;
-    background-color: #ebf1f8;
+    background-color: #EBF1F8;
     font-size: 14px;
     margin-bottom: 30px;
-    border: 0px solid #ebf1f8;
+    border: 0px solid #EBF1F8;
     padding: 10px 30px;
-    color: #ebf1f8;
+    color: #EBF1F8;
     border-radius: 10px;
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
@@ -491,7 +502,7 @@ ul.social-list {
 .social-list li {
     font-size: 30px;
     display: inline-block;
-    background-color: #ebf1f8;
+    background-color: #EBF1F8;
     height: 50px;
     width: 50px;
     line-height: 50px;
@@ -526,6 +537,88 @@ ul.social-list {
     padding-top: 50px;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sidebar {
+    background-color: #3D3D3D !important;
+    position: fixed;
+    top: 0 !important;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    /* Behind the navbar */
+    padding: 70px 0 0;
+    /* Height of navbar */
+    box-shadow: #32325d40 0px 30px 60px -12px, #0000004d 0px 18px 36px -18px;
+}
+
+@media (max-width: 767.98px) {
+    .sidebar {
+        top: 6rem;
+    }
+}
+
+.sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: .5rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /* Scrollable contents if viewport is shorter than content. */
+}
+
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+    .sidebar-sticky {
+        position: -webkit-sticky;
+        position: sticky;
+    }
+}
+
+.side-item .nav-link {
+    color: #FFFFFF !important;
+    margin-bottom: 20px;
+
+}
+
+.nav-item .side-link {
+    color: #FFFFFF !important;
+}
+
+.side-item .nav-link.active {
+    color: #DAAC69;
+}
+
+.sidebar .nav-link:hover .feather,
+.sidebar .nav-link.active .feather {
+    color: inherit;
+}
+
+.sidebar-heading {
+    font-size: .75rem;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
 .company-block {
     text-align: center;
 }

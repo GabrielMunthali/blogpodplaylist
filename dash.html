@@ -3,30 +3,42 @@
 
 <head>
     <style>
-        .author_body {
+        .comment {
             display: flex;
-            align-items: center;
+            align-items: flex-start;
+            border-bottom: 2px solid #DAAC69;
         }
 
-        .author_body img {
+        .comment img {
             margin-right: 1rem;
-            height: 50px;
-            width: 50px;
+            width: 70px;
+            height: 70px;
             object-fit: cover;
             border-radius: 50%;
         }
 
-        .autho_name {
+        .comm_name {
             margin-top: 0;
+            font-weight: 600;
+            font-size: 20px;
+            text-transform: capitalize;
+            margin-bottom: 10px;
+        }
+        .comm-body p{
+
         }
     </style>
 </head>
 
 <body>
-    <div class="author_body">
-        <img src="img/cole.jpg" alt="..." class="image">
-        <div class="media-body">
-            <h5 class="author_name">Media heading</h5>
+    <div class="comment">
+        <img src="img/usr.png" alt="..." class="img-fluid">
+        <div class="comm-body">
+            <h5 class="comm_name">Top-aligned media</h5>
+            <p>I’m gon’ put her in a coma. You give a hundred reasons why, and you say you're really gonna try. So I sat
+                quietly, agreed politely. Suiting up for my crowning battle. And on my 18th Birthday we got matching
+                tattoos. So très chic, yeah, she's a classic. I am ready for the road less traveled.
+            </p>
         </div>
     </div>
 </body>

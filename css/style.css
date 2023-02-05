@@ -5,7 +5,6 @@ body {
     padding: 0 !important;
     background-color: #EBF1F8;
     font-family: 'Kanit', sans-serif;
-    font-size: 14px;
 }
 .pallete{
     color: #3D3D3D;
@@ -105,7 +104,7 @@ body {
     height: 50px;
     width: 250px;
     background-color: #EBF1F8;
-    font-size: 14px;
+    font-size: 15px;
     border: 0px solid #EBF1F8;
     padding: 10px 30px;
     color: #EBF1F8;
@@ -443,7 +442,7 @@ ul.archive-list {
 }
 
 .archive-list li {
-    font-size: 14px;
+    font-size: 15px;
     display: block;
     background-color: #EBF1F8;
     height: 50px;
@@ -472,7 +471,7 @@ ul.archive-list {
     height: 50px;
     width: 100%;
     background-color: #EBF1F8;
-    font-size: 14px;
+    font-size: 15px;
     margin-bottom: 30px;
     border: 0px solid #EBF1F8;
     padding: 10px 30px;
@@ -539,7 +538,7 @@ ul.social-list {
 }
 
 .breadcrumb{
-    font-size: 14px;
+    font-size: 15px;
     padding: 10px 15px;
     margin-bottom: 30px;
     color: #000000;
@@ -575,7 +574,7 @@ ul.social-list {
 .post_head h4{
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 17px;
+    font-size: 20px;
     margin-bottom: 30px;
 }
 .author_body {
@@ -593,13 +592,137 @@ ul.social-list {
 
 .author_name {
     margin-top: 0;
-    font-size: 14px;
+    font-size: 15px;
     text-transform: capitalize;
 }
+.article_p{
+    margin-bottom: 60px;
+}
+.share-collapse{
+    color: #000000;
+    box-shadow: #32325d40 0px 30px 60px -12px, #0000004d 0px 18px 36px -18px;
+    background-color: #DAAC69;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: none;
+    margin-bottom: 30px;
+}
+ol.post-share{
+    margin: 0;
+    padding: 0;
+}
+.post-share li{
+    display: inline-block;
+    font-size: 20px;
+    background-color: #ebf1f8;
+    width: 50px;
+    height: 50px;
+    padding: 10px 15px;
+    line-height: 30px;
+    box-shadow: #32325d40 0px 30px 60px -12px, #0000004d 0px 18px 36px -18px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.post-share li a{
+    text-decoration: none;
+    color: #000000;
+}
+.post-share .la-facebook{
+    color: #354db5;
+}
+.post-share .la-twitter{
+    color: #23ABFF;
+}
+.post-share .la-instagram{
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), 
+    radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), 
+    radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), 
+    radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), 
+    radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), 
+    radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), 
+    radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), 
+    linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.post-share .la-whatsapp{
+    color: green;
+}
+.post-share .la-linkedin{
+    color: #0072b1;
+}
+.comment {
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 2px solid #D9D3CB;
+    margin-bottom: 60px;
+}
 
+.comment img {
+    margin-right: 1rem;
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+}
 
+.comm_name {
+    margin-top: 0;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.comm-body p{
 
+}
+.comm_form {
+    position: relative;
+    z-index: ;
+    height: 50px;
+    background-color: #EBF1F8;
+    font-size: 14px;
+    border: 0px solid #EBF1F8;
+    padding: 10px 30px;
+    color: #000;
+    border-radius: 3px;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
 
+.comm_form:focus {
+    color: #000;
+    background-color: #EBF1F8;
+    box-shadow: none;
+}
+textarea.comm_text{
+    position: relative;
+    background-color: #EBF1F8;
+    font-size: 14px;
+    border: 0px solid #EBF1F8;
+    padding: 10px 30px;
+    color: #000;
+    border-radius: 3px;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+textarea.comm_text:focus{
+    color: #000;
+    background-color: #EBF1F8;
+    box-shadow: none;
+}
+.comm_btn{
+    margin-bottom: 30px;
+    color: white;
+    background-color: #DAAC69;
+    border: #DAAC69;
+    height: 50px;
+    width: 100%;
+    border-radius: 3px;
+}
 
 
 

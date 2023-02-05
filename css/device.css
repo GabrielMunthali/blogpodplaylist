@@ -24,7 +24,7 @@
     .category-badge {
         line-height: 30px;
     }
-    .post-content img{
-        height: 400px;
+    .post_body img{
+        height: 300px;
     }
 }

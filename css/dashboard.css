@@ -271,7 +271,28 @@ selected.dash_select {
     font-weight: 600;
     font-size: 20px;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.manage_post_meta {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.manage_post_meta li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.manage_post_meta li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.manage_post_meta li a:hover {
+    color: #DAAC69;
 }
 
 .manage_post_list {
@@ -289,7 +310,7 @@ selected.dash_select {
 
 .manage_post_buttons li {
     margin-right: 10px;
-    
+
 
 }
 

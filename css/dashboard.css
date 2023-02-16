@@ -220,6 +220,7 @@ textarea.dash_text:focus {
     position: relative;
     background-color: #EBF1F8;
     font-size: 14px;
+    height: 50px;
     border: 0px solid #EBF1F8;
     padding: 10px 30px;
     border-radius: 3px;
@@ -229,6 +230,7 @@ textarea.dash_text:focus {
 }
 
 .dash_select {
+    color: #000;
     background-color: #EBF1F8;
     box-shadow: none;
 }
